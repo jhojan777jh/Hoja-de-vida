@@ -1,1 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de Vida - Jhojan Stiven Fuentes Sanchez</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header .nombre {
+      font-size: 1.8em;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 35px;
+    }
+
+    section h2 {
+      background: #f0f0f0;
+      padding: 15px 20px;
+      border-left: 5px solid #667eea;
+      margin-bottom: 20px;
+      font-size: 1.5em;
+      color: #333;
+      border-radius: 5px;
+    }
+
+    .perfil-contenido {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 5px;
+      line-height: 1.8;
+    }
+
+    .estudios-item,
+    .habilidades-item,
+    .contacto-item {
+      background: #f9f9f9;
+      padding: 15px 20px;
+      margin-bottom: 12px;
+      border-left: 4px solid #667eea;
+      border-radius: 5px;
+    }
+
+    .estudios-item h3,
+    .habilidades-item h3,
+    .contacto-item strong {
+      color: #667eea;
+      margin-bottom: 8px;
+    }
+
+    .estudios-item p,
+    .habilidades-item p,
+    .contacto-item p {
+      color: #555;
+      font-size: 0.95em;
+    }
+
+    .intereses-contenido {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 5px;
+      font-size: 1.1em;
+      font-weight: 500;
+      color: #667eea;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+
+    .lista-habilidades {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .lista-contacto {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    a {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      color: #666;
+      border-top: 1px solid #ddd;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      header .nombre {
+        font-size: 1.4em;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      section h2 {
+        font-size: 1.3em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Hoja de Vida</h1>
+      <p class="nombre">Jhojan Stiven Fuentes Sanchez</p>
+    </header>
+
+    <main>
+      <!-- Perfil Personal -->
+      <section>
+        <h2>📋 Perfil Personal</h2>
+        <div class="perfil-contenido">
+          <p>Estudiante de grado 11 apasionado por la tecnología, informática y desarrollo web. Me caracterizo por ser una persona dedicada, con gran interés en aprender nuevas cosas y desarrollar habilidades en el ámbito digital. Poseo capacidades de escucha activa y trabajo en equipo que me permiten colaborar efectivamente en proyectos colaborativos.</p>
+        </div>
+      </section>
+
+      <!-- Estudios -->
+      <section>
+        <h2>🎓 Estudios</h2>
+        <div class="estudios-item">
+          <h3>Bachillerato</h3>
+          <p>Cursando grado 11 en educación secundaria.</p>
+        </div>
+        <div class="estudios-item">
+          <h3>Técnico en el SENA</h3>
+          <p>Realizando un programa técnico en el SENA enfocado en herramientas digitales y tecnología.</p>
+        </div>
+      </section>
+
+      <!-- Habilidades -->
+      <section>
+        <h2>💪 Habilidades</h2>
+        <div class="lista-habilidades">
+          <div class="habilidades-item">
+            <h3>Tecnología</h3>
+            <p>Manejo básico de HTML, CSS, JavaScript y herramientas digitales.</p>
+          </div>
+          <div class="habilidades-item">
+            <h3>Ofimática</h3>
+            <p>Excel y software de productividad.</p>
+          </div>
+          <div class="habilidades-item">
+            <h3>Redes Sociales</h3>
+            <p>Uso eficiente de plataformas digitales y redes sociales.</p>
+          </div>
+          <div class="habilidades-item">
+            <h3>Inteligencia Artificial</h3>
+            <p>Conocimiento en herramientas de I.A. contemporáneas.</p>
+          </div>
+          <div class="habilidades-item">
+            <h3>Primeros Auxilios</h3>
+            <p>Formación en primeros auxilios básicos.</p>
+          </div>
+          <div class="habilidades-item">
+            <h3>Rescate y Escucha</h3>
+            <p>Habilidades en rescate, escucha activa y trabajo en equipo.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Intereses -->
+      <section>
+        <h2>🎯 Intereses</h2>
+        <div class="intereses-contenido">
+          ⭐ APRENDER NUEVAS COSAS ⭐
+        </div>
+      </section>
+
+      <!-- Datos de Contacto -->
+      <section>
+        <h2>📞 Contacto</h2>
+        <div class="lista-contacto">
+          <div class="contacto-item">
+            <strong>📧 Correo Electrónico</strong>
+            <p><a href="mailto:esteesuncorreodeejemplo@ejemplo.com">esteesuncorreodeejemplo@ejemplo.com</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 - Jhojan Stiven Fuentes Sanchez | Hoja de Vida</p>
+    </footer>
+  </div>
+</body>
+</html>
